@@ -14,8 +14,7 @@ GNU General Public License v2.0
 
 # History
 
-* 2017-11-30 hcall 1.0.0 release
-* 2017-11-06 Initialize github repository.
+* 
 
 # Group structure
 
