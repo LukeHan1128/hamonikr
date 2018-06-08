@@ -1,6 +1,6 @@
+# hamonikr ms edition
+
 <img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" width="650">
-# hamonikr
-hamonikr ms edition
 
 
 # 하모니카는 어떤 프로젝트 인가요?
