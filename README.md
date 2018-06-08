@@ -17,3 +17,12 @@ GNU General Public License v2.0
 ## 사용자 커뮤니티
 
 하모니카 커뮤니티 공식사이트[하모니카 커뮤니티 공식사이트](http://hamonikr.org)와 공개적으로 보관된 메일링리스트를 사용하여 누구나 가입하거나 프로젝트 관련 질문을 할 수 있습니다. [커뮤니티 이용약관](/policy.md)
+
+
+***
+
+## 관련 문서
+* [하모니카 프로젝트 개요](https://github.com/ivsteam/hamonikr/wiki)
+* [하모니카 프로젝트 관리모델](https://github.com/ivsteam/hamonikr/wiki/governance)
+
+
