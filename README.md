@@ -1,4 +1,4 @@
-## HamoniKR MS Edition
+## HamoniKR M Edition
 
 <img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" width="650">
 
