@@ -1,9 +1,16 @@
-<--<img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" style="width: 100%;">-->
-<img src="http://hamonikr.org/files/attach/images/56979/637/055/2c90456d75da2fcebfa3e3e3f7f3d09a.png" style="width: 100%;">
+<img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" style="width: 100%;">
 
 # 하모니카ME는 어떤 프로젝트 인가요?
 
 HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. 최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. 그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다.
+
+# Screenshot
+<div style="width: 100%;">
+  <img src="http://hamonikr.org/files/attach/images/56979/637/055/2c90456d75da2fcebfa3e3e3f7f3d09a.png" width="50%;">
+  <img src="http://hamonikr.org/files/attach/images/56979/637/055/8482ec26cc278c40bc60c3b1267e74e1.png" width="50%;">
+  <img src="http://hamonikr.org/files/attach/images/56979/637/055/daf13256fcfd82e1dc4a407912861a36.png" width="50%;">
+  <img src="http://hamonikr.org/files/attach/images/55473/702/055/981bc92596010c197d3dbed0714c6df3.png" width="50%;">
+</div>
 
 # License
 
