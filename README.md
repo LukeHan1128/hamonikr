@@ -2,13 +2,16 @@
 
 # 하모니카 커뮤니티
 <b>리눅스 커뮤니티 하모니카 :</b> http://hamonikr.org
-
+<br/>
+<br/>
 # 하모니카ME는 어떤 프로젝트 인가요?
 
 HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. 최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. 그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다.
-
+<br/>
+<br/>
 # Screenshot
 <img src="https://raw.githubusercontent.com/ivsteam/hamonikr/master/screenshot.png" width="100%;">
+<br/>
 
 # History
 * 자세한 내용을 알고싶다면 [하모니카 커뮤니티 - 릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)를 확인해 주세요.
@@ -16,6 +19,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 * 2019-01-22 [HamoniKR-ME 1.2 release](http://hamonikr.org/)
 * 2018-11-20 [HamoniKR-ME 1.1 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55790)
 * 2018-11-18 [HamoniKR-ME 1.0 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
+<br/>
 
 # Group structure
 
@@ -23,6 +27,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 * Committer
 * 개발자
 * 사용자
+<br/><br/>
 
 # Roles
 
@@ -45,6 +50,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 ## Board of directors (BD)
 
 BD는 프로젝트의 진화와 헌신의 시위를 위해 장점으로 인해 선출 된 개발자 또는 커미터입니다. 그들은 코드 저장소, 커뮤니티 관련 결정에 투표 할 수있는 권리 및 커미터쉽을 위해 적극적인 사용자를 제안 할 수있는 권한을 가지고 있습니다. BD는 전체적으로 프로젝트를 통제하는 주체 프로젝트의 정식 릴리스에 투표해야합니다.
+<br/><br/>
 
 # 의사결정
 하모니카 프로젝트는 별도의 관리주체 없이 운영되며 자원봉사자들에 의해 주도됩니다.
@@ -54,16 +60,15 @@ Voting is done with numbers:
 +1 -- a positive vote
 0 -- abstain, have no opinion
 -1 -- a negative vote
+<br/><br/>
 
 # 커뮤니티에 질문하는 법
-
 하모니카 커뮤니티 공식사이트[하모니카 커뮤니티 공식사이트](http://hamonikr.org)와 공개적으로 보관 된 메일링 리스트를 사용하여 누구나 가입하거나 프로젝트 관련 질문을 할 수 있습니다.
-
+<br/><br/>
 
 # License
-
 [GNU General Public License v2.0](https://github.com/ivsteam/hamonikr/blob/master/LICENSE)
+<br/><br/>
 
 # 이용 약관
-
 세부내용은 [이 링크](/policy.md) 를 참고하세요
