@@ -1,15 +1,14 @@
 <img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" style="width: 100%;">
 
+# 하모니카 커뮤니티
+<b>리눅스 커뮤니티 하모니카 :</b> http://hamonikr.org
+
 # 하모니카ME는 어떤 프로젝트 인가요?
 
 HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. 최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. 그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다.
 
 # Screenshot
 <img src="https://raw.githubusercontent.com/ivsteam/hamonikr/master/screenshot.png" width="100%;">
-
-# License
-
-[GNU General Public License v2.0](https://github.com/ivsteam/hamonikr/blob/master/LICENSE)
 
 # History
 * 자세한 내용을 알고싶다면 [하모니카 커뮤니티 - 릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)를 확인해 주세요.
@@ -58,9 +57,12 @@ Voting is done with numbers:
 
 # 커뮤니티에 질문하는 법
 
-하모니카 커뮤니티 공식사이트[하모니카 커뮤니티 공식사이트](http://hamonikr.org)와 공개적으로 보관 된 메일 링리스트를 사용하여 누구나 가입하거나 프로젝트 관련 질문을 할 수 있습니다.
+하모니카 커뮤니티 공식사이트[하모니카 커뮤니티 공식사이트](http://hamonikr.org)와 공개적으로 보관 된 메일링 리스트를 사용하여 누구나 가입하거나 프로젝트 관련 질문을 할 수 있습니다.
 
 
+# License
+
+[GNU General Public License v2.0](https://github.com/ivsteam/hamonikr/blob/master/LICENSE)
 
 # 이용 약관
 
