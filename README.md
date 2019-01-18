@@ -1,4 +1,4 @@
-<img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" width="650">
+<img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" style="width: 100%;">
 
 
 # 하모니카는 어떤 프로젝트 인가요?
@@ -10,8 +10,10 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 GNU General Public License v2.0
 
 # History
-* [릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)
-* 2017-11-20 1.1 release
+* 보다 상세한 내용을 알고싶다면 [릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)를 확인해 주세요.
+
+* 2019-01-22 HamoniKR-ME 1.2 release
+* 2018-11-20 HamoniKR-ME 1.1 release
 * 2018-11-18 HamoniKR-ME 1.0 release
 
 # Group structure
