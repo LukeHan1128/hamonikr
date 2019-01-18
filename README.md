@@ -7,14 +7,14 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 
 # License
 
-GNU General Public License v2.0
+[GNU General Public License v2.0](https://github.com/ivsteam/hamonikr/blob/master/LICENSE)
 
 # History
 * 보다 상세한 내용을 알고싶다면 [릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)를 확인해 주세요.
 
-* 2019-01-22 HamoniKR-ME 1.2 release [상세보기](http://hamonikr.org/)
-* 2018-11-20 HamoniKR-ME 1.1 release [상세보기](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55790)
-* 2018-11-18 HamoniKR-ME 1.0 release [상세보기](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
+* 2019-01-22 [HamoniKR-ME 1.2 release](http://hamonikr.org/)
+* 2018-11-20 [HamoniKR-ME 1.1 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55790)
+* 2018-11-18 [HamoniKR-ME 1.0 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
 
 # Group structure
 
