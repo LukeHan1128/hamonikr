@@ -3,17 +3,16 @@
 
 # 하모니카는 어떤 프로젝트 인가요?
 
-한국어를 사용하는 사용자가 좋은 오픈소스 소프트웨어를 찾고 한국어 번역에 참여하고 발전시켜서 자유 라이선스에 따라서 이를 공개하도록 허용하고 권장하는 것입니다.
-이렇게 오픈소스 소프트웨어를 효율적으로 한국어 접근성을 높여 보급하는 것입니다.
+HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. 최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. 그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다.
 
 # License
 
 GNU General Public License v2.0
 
 # History
-
-* 2017-11-30 hcall 1.0.0 release
-* 2017-11-06 Initialize github repository.
+* [릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)
+* 2017-11-20 1.1 release
+* 2018-11-18 HamoniKR-ME 1.0 release
 
 # Group structure
 
