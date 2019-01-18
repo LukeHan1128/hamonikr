@@ -9,7 +9,7 @@
 HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. 최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. 그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다.
 <br/><br/>
 
-# Screenshot
+# 스크린샷
 <img src="https://raw.githubusercontent.com/ivsteam/hamonikr/master/screenshot.png" width="100%;">
 <br/><br/>
 
@@ -19,7 +19,71 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 * 2019-01-22 [HamoniKR-ME 1.2 release](http://hamonikr.org/)
 * 2018-11-20 [HamoniKR-ME 1.1 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55790)
 * 2018-11-18 [HamoniKR-ME 1.0 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
-<br/><br/>
+<br/>
+
+# 사전준비
+* 해당 스크립트는 리눅스 배포판에서 실행 가능합니다.
+<br/>
+
+1. 다운로드
+* 해당 깃허브 프로젝트를 다운로드 받습니다.
+<br/>
+
+2. 사전설치 및 준비
+스크립트를 실행하기 전 필수 패키지를 설치합니다.
+<pre><code>sudo apt-get install xorriso</code></pre>
+<br/>
+
+<b>※ 해당 스크립트는 홈 디렉토리를 기반으로 작성되었습니다.</b>
+<br/>
+<br/>
+
+a. 직접 다운로드 받은 경우<br/>
+<pre>
+<code>
+# 홈 디렉토리로 이동
+cd ~/
+
+# 압축해제
+unzip Downloads/hamonikr-master.zip
+
+# 폴더 옮기기
+mv hamonikr-master/mydir ~/
+</code>
+</pre>
+<br/>
+
+b. git 으로 clone 받은 경우
+<pre>
+<code>
+# 홈 디렉토리로 이동
+cd ~/
+
+# git clone
+git clone https://github.com/ivsteam/hamonikr.git
+
+# 폴더 옮기기
+mv hamonikr/mydir ~/
+</code>
+</pre>
+<br/>
+<br/>
+
+3. 이하 공통 - 실행하기
+<pre>
+<code>
+# 스크립트 옮기기
+mv mydir/start.sh ..
+
+# 스크립트 권한 부여
+chmod +x start.sh
+
+# 실행
+sudo ./start.sh
+</code>
+</pre>
+<br/>
+<br/>
 
 # Group structure
 
