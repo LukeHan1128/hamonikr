@@ -6,10 +6,10 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 
 # Screenshot
 <div style="width: 100%;">
-  <img src="http://hamonikr.org/files/attach/images/56979/637/055/2c90456d75da2fcebfa3e3e3f7f3d09a.png" width="50%;">
-  <img src="http://hamonikr.org/files/attach/images/56979/637/055/8482ec26cc278c40bc60c3b1267e74e1.png" width="50%;">
-  <img src="http://hamonikr.org/files/attach/images/56979/637/055/daf13256fcfd82e1dc4a407912861a36.png" width="50%;">
-  <img src="http://hamonikr.org/files/attach/images/55473/702/055/981bc92596010c197d3dbed0714c6df3.png" width="50%;">
+  <img src="http://hamonikr.org/files/attach/images/56979/637/055/2c90456d75da2fcebfa3e3e3f7f3d09a.png" width="50%;" style="display: inline-block;">
+  <img src="http://hamonikr.org/files/attach/images/56979/637/055/8482ec26cc278c40bc60c3b1267e74e1.png" width="50%;" style="display: inline-block;">
+  <img src="http://hamonikr.org/files/attach/images/56979/637/055/daf13256fcfd82e1dc4a407912861a36.png" width="50%;" style="display: inline-block;">
+  <img src="http://hamonikr.org/files/attach/images/55473/702/055/981bc92596010c197d3dbed0714c6df3.png" width="50%;" style="display: inline-block;">
 </div>
 
 # License
