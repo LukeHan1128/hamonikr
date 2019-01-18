@@ -12,9 +12,9 @@ GNU General Public License v2.0
 # History
 * 보다 상세한 내용을 알고싶다면 [릴리즈노트](http://hamonikr.org/index.php?mid=board_hkrme&category=55599)를 확인해 주세요.
 
-* 2019-01-22 HamoniKR-ME 1.2 release
-* 2018-11-20 HamoniKR-ME 1.1 release
-* 2018-11-18 HamoniKR-ME 1.0 release
+* 2019-01-22 HamoniKR-ME 1.2 release [상세보기](http://hamonikr.org/)
+* 2018-11-20 HamoniKR-ME 1.1 release [상세보기](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55790)
+* 2018-11-18 HamoniKR-ME 1.0 release [상세보기](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
 
 # Group structure
 
