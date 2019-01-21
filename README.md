@@ -40,7 +40,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 <br/>
 <br/>
 
-a. 직접 다운로드 받은 경우<br/>
+a. 직접 다운로드 받은 경우(a. 직접다운 -> 3. 이하공통)<br/>
 <pre>
 <code>
 # 홈 디렉토리로 이동
@@ -55,7 +55,7 @@ mv hamonikr-master/mydir ~/
 </pre>
 <br/>
 
-b. git 으로 clone 받은 경우
+b. git 으로 clone 받은 경우(b. git clone -> 3. 이하공통)<br/>
 <pre>
 <code>
 # 홈 디렉토리로 이동
