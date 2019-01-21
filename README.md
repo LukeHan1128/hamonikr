@@ -21,7 +21,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 * 2018-11-18 [HamoniKR-ME 1.0 release](http://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
 <br/>
 
-# 사전준비
+# 준비
 * 해당 스크립트는 리눅스 배포판에서 실행 가능합니다.
 <br/>
 <b>※ 스크립트를 실행하기 위해선 시스템 언어가 영어(English)로 설정되어야 합니다. 한글로 설정된 경우 제대로 진행되지 않습니다.</b>
@@ -71,7 +71,7 @@ mv hamonikr/mydir ~/
 <br/>
 <br/>
 
-3. 이하 공통 - 실행하기
+# 실행
 <pre>
 <code>
 # 스크립트 옮기기
