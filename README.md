@@ -32,7 +32,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 <br/>
 
 2. 사전설치 및 준비
-스크립트를 실행하기 전 필수 패키지를 설치합니다.
+스크립트를 실행하면 필수 패키지를 설치합니다. 설치되지 않는 경우 아래의 명령어를 입력하여 설치합니다. 
 <pre><code>sudo apt-get install xorriso</code></pre>
 <br/>
 
