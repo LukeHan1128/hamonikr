@@ -29,6 +29,11 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 
 1. 다운로드
 * 해당 깃허브 프로젝트를 다운로드 받습니다.
+* 리눅스 공식 홈페이지 에서 [리눅스 민트 19 타라 시나몬 64-bit(Linux Mint 19 "Tara" - Cinnamon (64-bit))](https://linuxmint.com/edition.php?id=254)를 다운받습니다.
+* 혹은 아래와 같이 다운로드 받습니다.
+<pre><code>wget http://ftp.kaist.ac.kr/linuxmint-iso/stable/19/linuxmint-19-cinnamon-64bit-v2.iso</code></pre>
+* 다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
+<pre><code>mv (다운로드 받은 경로)/linuxmint-19-cinnamon-64bit-v2.iso (깃 프로젝트 경로)/mydir</pre></code>
 <br/>
 
 2. 사전설치 및 준비<br/>
