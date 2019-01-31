@@ -36,6 +36,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 <br/>
 
 2. 사전설치 및 준비<br/>
+<br/>
 실행전 폴더를 이동합니다.
 <pre><code>mv mydir ~/</code></pre>
 <br/>
