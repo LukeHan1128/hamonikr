@@ -35,20 +35,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 <pre><code>wget http://ftp.kaist.ac.kr/linuxmint-iso/stable/19/linuxmint-19-cinnamon-64bit-v2.iso</code></pre>
 <br/>
 
-2. 사전설치 및 준비<br/>
-<br/>
-실행전 폴더를 이동합니다.
-<pre><code>mv mydir ~/</code></pre>
-<br/>
-
-다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
-<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/mydir</code></pre>
-<br/>
-
-스크립트를 실행하면 필수 패키지를 설치합니다. 설치되지 않는 경우 아래의 명령어를 입력하여 설치합니다. 
-<pre><code>sudo apt-get install xorriso</code></pre>
-<br/>
-
+2. 준비<br/>
 a. 직접 다운로드 받은 경우(a. 직접다운 -> 3. 이하공통)<br/>
 <pre>
 <code>
@@ -78,6 +65,10 @@ mv hamonikr/mydir ~/
 </code>
 </pre>
 <br/>
+<br/>
+
+다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
+<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/mydir</code></pre>
 <br/>
 
 # 실행
