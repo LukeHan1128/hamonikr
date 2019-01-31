@@ -67,8 +67,8 @@ mv hamonikr/mydir ~/
 <br/>
 <br/>
 
-다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
-<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/mydir</code></pre>
+다운받은 iso 파일을 홈 디렉토리로 이동합니다.
+<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/</code></pre>
 <br/>
 
 # 실행
