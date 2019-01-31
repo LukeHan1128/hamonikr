@@ -25,6 +25,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 * 해당 프로젝트는 데비안 기반의 리눅스 배포판에서 실행 가능합니다.
 <br/>
 <b>※ 스크립트를 실행하기 위해선 시스템 언어가 영어(English)로 설정되어야 합니다. 한글로 설정된 경우 제대로 진행되지 않습니다.</b>
+<b>※ 해당 스크립트는 홈 디렉토리를 기반으로 작성되었습니다.</b><br/>
 <br/><br/>
 
 1. 다운로드
@@ -35,8 +36,6 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 <br/>
 
 2. 사전설치 및 준비<br/>
-<b>※ 해당 스크립트는 홈 디렉토리를 기반으로 작성되었습니다.</b><br/>
-<br/>
 실행전 폴더를 이동합니다.
 <pre><code>mv mydir ~/</code></pre>
 <br/>
