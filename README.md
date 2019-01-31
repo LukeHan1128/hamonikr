@@ -68,6 +68,8 @@ mv hamonikr/mydir ~/
 <br/>
 <br/>
 
+3. 공통<br/>
+
 다운받은 iso 파일을 홈 디렉토리로 이동합니다.
 <pre><code>mv Downloads/linuxmint-19-cinnamon-64bit-v2.iso ~/</code></pre>
 <br/>
