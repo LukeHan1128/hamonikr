@@ -81,7 +81,7 @@ mv hamonikr/mydir ~/
 <pre>
 <code>
 # 스크립트 옮기기
-mv mydir/start.sh ..
+mv mydir/start.sh ~
 
 # 스크립트 권한 부여
 chmod +x start.sh
