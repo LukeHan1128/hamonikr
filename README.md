@@ -1,7 +1,7 @@
-<img src="http://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" style="width: 100%;">
+<img src="https://hamonikr.org/files/attach/images/46053/be8885e3c0258da42d68a00294f41486.png" style="width: 100%;">
 
 # 하모니카 커뮤니티
-* <b>리눅스 커뮤니티 하모니카 :</b> http://hamonikr.org
+* <b>리눅스 커뮤니티 하모니카 :</b> https://hamonikr.org
 <br/><br/>
 
 # 하모니카ME는 어떤 프로젝트 인가요?
@@ -107,7 +107,7 @@ sudo ./start.sh
 
 제공하는 소프트웨어를 다운로드 받아 사용하는 사용자입니다. 프로젝트를 위하여 피드백을 주거나 새로운 기능을 제안할 수 있습니다.
 제안을 위해서는 사용자 채널을 이용하세요. 
-[하모니카 커뮤니티 사용자 채널 안내](http://hamonikr.org/how_join)
+[하모니카 커뮤니티 사용자 채널 안내](https://hamonikr.org/how_join)
 
 ## 개발자
 
@@ -135,7 +135,7 @@ Voting is done with numbers:
 <br/><br/>
 
 # 커뮤니티에 질문하는 법
-[하모니카 커뮤니티 공식사이트](http://hamonikr.org)와 공개적으로 보관 된 메일링 리스트를 사용하여 누구나 가입하거나 프로젝트 관련 질문을 할 수 있습니다.
+[하모니카 커뮤니티 공식사이트](https://hamonikr.org)와 공개적으로 보관 된 메일링 리스트를 사용하여 누구나 가입하거나 프로젝트 관련 질문을 할 수 있습니다.
 <br/><br/>
 
 # License
