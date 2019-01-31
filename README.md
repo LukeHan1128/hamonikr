@@ -24,8 +24,8 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 # 준비
 * 해당 프로젝트는 데비안 기반의 리눅스 배포판에서 실행 가능합니다.
 <br/>
-<b>※ 스크립트를 실행하기 위해선 시스템 언어가 영어(English)로 설정되어야 합니다. 한글로 설정된 경우 제대로 진행되지 않습니다.</b>
 <b>※ 해당 스크립트는 홈 디렉토리를 기반으로 작성되었습니다.</b><br/>
+<b>※ 스크립트를 실행하기 위해선 시스템 언어가 영어(English)로 설정되어야 합니다. 한글로 설정된 경우 제대로 진행되지 않습니다.</b><br/>
 <br/><br/>
 
 1. 다운로드
@@ -41,7 +41,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 <br/>
 
 다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
-<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/mydir</pre></code>
+<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/mydir</code></pre>
 <br/>
 
 스크립트를 실행하면 필수 패키지를 설치합니다. 설치되지 않는 경우 아래의 명령어를 입력하여 설치합니다. 
