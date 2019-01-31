@@ -92,6 +92,16 @@ sudo ./start.sh
 <br/>
 <br/>
 
+# 완료
+스크립트가 완료되면 ~/custome-img 폴더에서 HamoniKR-ME_1.2.iso 파일이 생성되었음을 확인할 수 있습니다.<br/>
+<br/>
+HamoniKR-ME_1.2.iso 파일을 이용하여 부팅 USB 를 제작할 수 있습니다.<br/>
+<br/>
+부팅USB 제작 방법은 아래의 링크를 참조해 주시기 바랍니다.
+- [Ⅱ-1. 윈도우에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3747)
+- [Ⅱ-2. 리눅스에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3767)
+
+
 # Group structure
 
 * Board of directors (BOARD)
