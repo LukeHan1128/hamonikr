@@ -1,0 +1,221 @@
+Package: grub-common
+Source: grub2
+Version: 2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12036
+Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.8.4-1.4), liblzma5 (>= 5.1.1alpha+20120614), gettext-base, lsb-base (>= 3.0-6)
+Recommends: os-prober (>= 1.33)
+Suggests: multiboot-doc, grub-emu, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
+Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
+Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4)
+Filename: ./grub-common_2.02-2ubuntu8.9_amd64.deb
+Size: 1769048
+MD5sum: 3d18b45786750ac36f33dd8f77edbe47
+SHA1: d6f6885db925f1af2a5ed93fef76616e607b1965
+SHA256: fffcfcea68045936e4847fbf7c111941eff93a1a485e8ba44fee2145fb0b2920
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files)
+ This package contains common files shared by the distinct flavours of GRUB.
+ It is shared between GRUB Legacy and GRUB 2, although a number of files
+ specific to GRUB 2 are here as long as they do not break GRUB Legacy.
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
+
+Package: grub-efi-amd64
+Source: grub2
+Version: 2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 187
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.02-2ubuntu8.9), grub2-common (= 2.02-2ubuntu8.9), grub-efi-amd64-bin (= 2.02-2ubuntu8.9), ucf
+Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.02-2ubuntu8.9)
+Filename: ./grub-efi-amd64_2.02-2ubuntu8.9_amd64.deb
+Size: 47028
+MD5sum: 8188525fc9df7e53cdb16a668060ef25
+SHA1: a3ce7c004ae6f2351766d1e742b2e20e5b2db5a3
+SHA256: 35086bdac1a6793cb3936029b705f55793bf3555fb6eb62ebccfbef142397fa6
+Section: admin
+Priority: extra
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB that has been built for use with
+ EFI-AMD64 architecture, such as the one provided by Intel Macs (that is, unless
+ a BIOS interface has been activated).
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
+
+Package: grub-efi-amd64-bin
+Source: grub2
+Version: 2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2701
+Depends: grub-common (= 2.02-2ubuntu8.9), efibootmgr
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.02-2ubuntu8.9)
+Filename: ./grub-efi-amd64-bin_2.02-2ubuntu8.9_amd64.deb
+Size: 654912
+MD5sum: f210faf3177efcda2863f71caf511189
+SHA1: 69b86e651d842c69b24403cfd6f578b07dc24792
+SHA256: 75a6ce464db09257c94bcfc51af2b78f0851bbe0a41735a6e341b5ae9c6c7f17
+Section: admin
+Priority: extra
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 binaries)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB that has been built for use with
+ EFI-AMD64 architecture, such as the one provided by Intel Macs (that is, unless
+ a BIOS interface has been activated).  It will not automatically install
+ GRUB as the active boot loader, nor will it automatically update grub.cfg
+ on upgrade, so most people should install grub-efi-amd64 instead.
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
+
+Package: grub-efi-amd64-signed
+Source: grub2-signed (1.93.10)
+Version: 1.93.10+2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Installed-Size: 3359
+Depends: grub-efi-amd64-bin (= 2.02-2ubuntu8.9), grub-efi-amd64 | grub-pc
+Recommends: secureboot-db
+Built-Using: grub2 (= 2.02-2ubuntu8.9)
+Filename: ./grub-efi-amd64-signed_1.93.10+2.02-2ubuntu8.9_amd64.deb
+Size: 297088
+MD5sum: faa65bfca05e20929d9dcb6cc8658857
+SHA1: d5174ce3d2e62732419bcad1e478741154b29130
+SHA256: 1b46046f5ba2519427d4f8f201d0224a2bac3b211c529cf3a808449a61fb2646
+Section: utils
+Priority: optional
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB built for use with the EFI-AMD64
+ architecture, signed with Canonical's UEFI signing key.
+
+Package: grub-pc
+Source: grub2
+Version: 2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 560
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.02-2ubuntu8.9), grub2-common (= 2.02-2ubuntu8.9), grub-pc-bin (= 2.02-2ubuntu8.9), ucf, grub-gfxpayload-lists
+Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-xen
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.02-2ubuntu8.9)
+Filename: ./grub-pc_2.02-2ubuntu8.9_amd64.deb
+Size: 137252
+MD5sum: 48f6caeaeb0d4b16ee9cd55602822fde
+SHA1: ba50379f32dc97218adc0b98b3a2ba4b04c082fe
+SHA256: 27ed9b94ce56da8d75ee53aa8b590e6ffd2cbff7fcfee10fca27be1294f0f0a5
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This package contains a version of GRUB that has been built for use with
+ traditional PC/BIOS architecture.
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
+
+Package: grub-pc-bin
+Source: grub2
+Version: 2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2917
+Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), grub-common (= 2.02-2ubuntu8.9)
+Suggests: desktop-base (>= 4.0.6)
+Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.02-2ubuntu8.9)
+Filename: ./grub-pc-bin_2.02-2ubuntu8.9_amd64.deb
+Size: 899600
+MD5sum: 6541d8bb2b6b1c0f3a28477b5f5d9f65
+SHA1: dc780ed283c32967b27bcfadd3fd2e7b2e0ca32b
+SHA256: 9cd27d1073add94651885618d444b06787f349a69d22379e6ed5e140776abada
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This package contains a version of GRUB that has been built for use with
+ traditional PC/BIOS architecture.  It will not automatically install GRUB
+ as the active boot loader, nor will it automatically update grub.cfg on
+ upgrade, so most people should install grub-pc instead.
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
+
+Package: grub2-common
+Source: grub2
+Version: 2.02-2ubuntu8.9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1159
+Depends: grub-common (= 2.02-2ubuntu8.9), dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), liblzma5 (>= 5.1.1alpha+20120614)
+Conflicts: grub-legacy
+Breaks: grub (<< 0.97-54), grub-doc (<< 0.97-29ubuntu60), grub-legacy-doc (<< 0.97-29ubuntu60), shim (<< 13)
+Replaces: grub, grub-common (<< 1.99-1), grub-coreboot (<< 2.00-4), grub-doc (<< 0.97-29ubuntu60), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-legacy, grub-legacy-doc (<< 0.97-29ubuntu60), grub-linuxbios (<< 1.99-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4)
+Filename: ./grub2-common_2.02-2ubuntu8.9_amd64.deb
+Size: 531972
+MD5sum: 52f9a735be6501e5cf5946c1a607c05d
+SHA1: b213ae63b4082770671ff7db31de1aa0c59c867c
+SHA256: 979b9b5da2c9c04d94a751a9ba5f46fb002b6a511d9a2c3ddfd8ae25580adf18
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files for version 2)
+ This package contains common files shared by the distinct flavours of GRUB.
+ The files in this package are specific to GRUB 2, and would break GRUB
+ Legacy if installed on the same system.
+Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
+

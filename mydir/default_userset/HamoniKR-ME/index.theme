@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=HamoniKR-ME
+Type=X-GNOME-Metatheme
+Comment=
+
+[X-GNOME-Metatheme]
+GtkTheme=Mint-X-Purple
+MetacityTheme=Mint-Y-Dark
+IconTheme=Mint-X-Purple
+GtkColorScheme=link_color:#08c
+CursorTheme=default
+CursorSize=24

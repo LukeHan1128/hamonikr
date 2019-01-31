@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hamonia
+Type=Application
+Exec=firefox https://hamonia.kr
+Terminal=false
+Icon=/usr/share/applications/Hamonia-logo.png
+Comment=hamonia media weaver Application
+NoDisplay=false

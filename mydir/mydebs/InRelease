@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: HamoniKR_Local_Repo
+Label: HamoniKR_Local_Repo
+Codename: tara
+Architectures: i386 amd64
+Components: main
+Description: HamoniKR ME local APT repository
+SignWith: 12345ABC
+Date: Wed, 05 Dec 2018 02:53:50 +0000
+MD5Sum:
+ c407bd83b3989ca3068823ffeb58e38b             2719 Packages.gz
+ 8a11f727edcac6338467dd780378b64a            11071 Packages
+SHA256:
+ 750419280c32b6d526d07b10c05ed07c6912de9a3f3725e9ad1944645c3c2ae1             2719 Packages.gz
+ d70edae56a928f1e0457695d0c4a1a883b0af6de185871b36abc4b8e772604ed            11071 Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQHKBAEBCgA0FiEE7n+vEp4cWUIpPka5y/jZtWlwxScFAlwHPb4WHGx1a2VoYW4x
+MTI4QGdtYWlsLmNvbQAKCRDL+Nm1aXDFJ90VC/4zpqzUC9ZrLcaNsEuuOlhqQlba
+9MdgRQNMzgmz+Ut0Ui6/l9ZeV54dJZT/t50YcgZkEirEu0kuck2qjv6LsFy+1MoA
+kmo1DDQbELc2ZGpNU986DL8b6X6+RZBLD4/xlC39BdwTvXP6Yz5BREjTjzefAvXd
+p+C1EoSZ0ER1G6Cm8oFzTP9lf0wAnsu6izHPh8+eM+vi/x7JVTbp00afwPrf9p73
+IlXUOenEMSNpV5OpL3vS+pH4okwDrNAwdPHGR2P2ZuMJkJLctBhxf3OwWarYgo7B
+3QZT8IWmEjDH0lTglkqWbnV0hgCVyu7fqr/qFLdu7U8m5JPlTizChT1/LfezrL6r
+SsTGnhDnMpCIi8lr6Ts4y+FeLjzWMuVMlUIc9etOfuRUWreNTDb5JwNLnXmSdKSc
+YnwaBOLNrR97Z1mkafOVzl3/YeRCNrVOcxau7ikT0PF+CtjkMugqoJ52UMOZc5QZ
+VLAMcl3PFTKNUS0muQveAYDHKxfM3ellgPlv8Bk=
+=9CaE
+-----END PGP SIGNATURE-----
