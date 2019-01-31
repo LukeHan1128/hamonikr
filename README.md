@@ -100,7 +100,7 @@ HamoniKR-ME_1.2.iso 파일을 이용하여 부팅 USB 를 제작할 수 있습�
 부팅USB 제작 방법은 아래의 링크를 참조해 주시기 바랍니다.
 - [Ⅱ-1. 윈도우에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3747)
 - [Ⅱ-2. 리눅스에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3767)
-
+<br/>
 
 # Group structure
 
