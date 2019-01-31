@@ -14,7 +14,7 @@ fi
 
 
 #git --version  >/dev/null 2>&1 || { echo >&2 "Please install git - apt install git "; exit 1; }
-xorriso -version  >/dev/null 2>&1 || { sudo apt-get install xorriso -y; }
+xorriso -version  >/dev/null 2>&1 || { echo "#### install xorriso ####"; sudo apt-get install xorriso -y; }
 
 
 #### mv foler 
@@ -23,7 +23,6 @@ cd ~/.
 ####  necessary file setting
 sudo chmod 777 mydir
 cd mydir
-mv ./linuxmint-19-cinnamon-64bit-v2.iso ~/
 
 
 echo "####Copying $CDIMAGENAME to working directory...####"
