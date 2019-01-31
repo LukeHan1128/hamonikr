@@ -23,10 +23,6 @@ cd ~/.
 ####  necessary file setting
 sudo chmod 777 mydir
 cd mydir
-unzip Seoul.zip
-unzip Seoul-L.zip
-unzip hamoniKR-ME_img.zip
-unzip hamonikr-me_resource.zip
 mv ./linuxmint-19-cinnamon-64bit-v2.iso ~/
 
 
