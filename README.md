@@ -24,7 +24,8 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 # 준비
 * 해당 프로젝트는 데비안 기반의 리눅스 배포판에서 실행 가능합니다.
 <br/>
-<b>※ 스크립트를 실행하기 위해선 시스템 언어가 영어(English)로 설정되어야 합니다. 한글로 설정된 경우 제대로 진행되지 않습니다.</b>
+<b>※ 해당 스크립트는 홈 디렉토리를 기반으로 작성되었습니다.</b><br/>
+<b>※ 스크립트를 실행하기 위해선 시스템 언어가 영어(English)로 설정되어야 합니다. 한글로 설정된 경우 제대로 진행되지 않습니다.</b><br/>
 <br/><br/>
 
 1. 다운로드
@@ -32,16 +33,18 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 * [리눅스 민트 공식 홈페이지](https://linuxmint.com/)에서 [리눅스 민트 19 타라 시나몬 64-bit](https://linuxmint.com/edition.php?id=254)를 다운받습니다.
 * 혹은 아래와 같이 다운로드 받습니다.
 <pre><code>wget http://ftp.kaist.ac.kr/linuxmint-iso/stable/19/linuxmint-19-cinnamon-64bit-v2.iso</code></pre>
-* 다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
-<pre><code>mv (다운로드 받은 경로)/linuxmint-19-cinnamon-64bit-v2.iso (깃 프로젝트 경로)/mydir</pre></code>
 <br/>
 
 2. 사전설치 및 준비<br/>
-<b>※ 해당 스크립트는 홈 디렉토리를 기반으로 작성되었습니다.</b><br/>
 <br/>
 실행전 폴더를 이동합니다.
 <pre><code>mv mydir ~/</code></pre>
 <br/>
+
+다운받은 iso 파일을 깃허브 프로젝트에 있는 mydir 폴더로 이동합니다.
+<pre><code>mv Download/linuxmint-19-cinnamon-64bit-v2.iso ~/mydir</code></pre>
+<br/>
+
 스크립트를 실행하면 필수 패키지를 설치합니다. 설치되지 않는 경우 아래의 명령어를 입력하여 설치합니다. 
 <pre><code>sudo apt-get install xorriso</code></pre>
 <br/>
@@ -88,6 +91,16 @@ sudo ./start.sh
 </code>
 </pre>
 <br/>
+<br/>
+
+# 완료
+스크립트가 완료되면 ~/custome-img 폴더에서 HamoniKR-ME_1.2.iso 파일이 생성되었음을 확인할 수 있습니다.<br/>
+<br/>
+HamoniKR-ME_1.2.iso 파일을 이용하여 부팅 USB 를 제작할 수 있습니다.<br/>
+<br/>
+부팅USB 제작 방법은 아래의 링크를 참조해 주시기 바랍니다.
+- [Ⅱ-1. 윈도우에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3747)
+- [Ⅱ-2. 리눅스에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3767)
 <br/>
 
 # Group structure
