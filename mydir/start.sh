@@ -25,7 +25,6 @@ cd mydir
 
 echo "####Copying $CDIMAGENAME to working directory...####"
 
-
 CDIMAGENAME='linuxmint-19-cinnamon-64bit-v2.iso'
 IMAGE_NAME='HamoniKR-ME_1.2'
 
