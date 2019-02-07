@@ -1,19 +1,19 @@
 Package: grub-common
 Source: grub2
-Version: 2.02-2ubuntu8.9
+Version: 2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 12036
+Installed-Size: 12044
 Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.8.4-1.4), liblzma5 (>= 5.1.1alpha+20120614), gettext-base, lsb-base (>= 3.0-6)
 Recommends: os-prober (>= 1.33)
 Suggests: multiboot-doc, grub-emu, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
 Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
 Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4)
-Filename: ./grub-common_2.02-2ubuntu8.9_amd64.deb
-Size: 1769048
-MD5sum: 3d18b45786750ac36f33dd8f77edbe47
-SHA1: d6f6885db925f1af2a5ed93fef76616e607b1965
-SHA256: fffcfcea68045936e4847fbf7c111941eff93a1a485e8ba44fee2145fb0b2920
+Filename: ./grub-common_2.02-2ubuntu8.10_amd64.deb
+Size: 1773836
+MD5sum: 80f8ab7d3c7d0232e99e14b8d713d57e
+SHA1: 013a1fc144bae54fbfdc7c45cdb97049856e0573
+SHA256: 3220d28c9d8ebe276f9f4082e69452d0d731138c56409b286a00ce1121a810c9
 Section: admin
 Priority: optional
 Multi-Arch: foreign
@@ -26,18 +26,18 @@ Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
 
 Package: grub-efi-amd64
 Source: grub2
-Version: 2.02-2ubuntu8.9
+Version: 2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 187
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.02-2ubuntu8.9), grub2-common (= 2.02-2ubuntu8.9), grub-efi-amd64-bin (= 2.02-2ubuntu8.9), ucf
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.02-2ubuntu8.10), grub2-common (= 2.02-2ubuntu8.10), grub-efi-amd64-bin (= 2.02-2ubuntu8.10), ucf
 Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
-Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.02-2ubuntu8.9)
-Filename: ./grub-efi-amd64_2.02-2ubuntu8.9_amd64.deb
-Size: 47028
-MD5sum: 8188525fc9df7e53cdb16a668060ef25
-SHA1: a3ce7c004ae6f2351766d1e742b2e20e5b2db5a3
-SHA256: 35086bdac1a6793cb3936029b705f55793bf3555fb6eb62ebccfbef142397fa6
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.02-2ubuntu8.10)
+Filename: ./grub-efi-amd64_2.02-2ubuntu8.10_amd64.deb
+Size: 47036
+MD5sum: e2a0d729ddfea47900bead5f00262f0a
+SHA1: 6caf60c96be08cddfdd53efd8988d1d871979b80
+SHA256: c90a01b506e65627fdeeef6c46344af4796d38c40dc8bbc0037f724889c12b4b
 Section: admin
 Priority: extra
 Multi-Arch: foreign
@@ -59,17 +59,17 @@ Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
 
 Package: grub-efi-amd64-bin
 Source: grub2
-Version: 2.02-2ubuntu8.9
+Version: 2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2701
-Depends: grub-common (= 2.02-2ubuntu8.9), efibootmgr
-Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.02-2ubuntu8.9)
-Filename: ./grub-efi-amd64-bin_2.02-2ubuntu8.9_amd64.deb
-Size: 654912
-MD5sum: f210faf3177efcda2863f71caf511189
-SHA1: 69b86e651d842c69b24403cfd6f578b07dc24792
-SHA256: 75a6ce464db09257c94bcfc51af2b78f0851bbe0a41735a6e341b5ae9c6c7f17
+Depends: grub-common (= 2.02-2ubuntu8.10), efibootmgr
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.02-2ubuntu8.10)
+Filename: ./grub-efi-amd64-bin_2.02-2ubuntu8.10_amd64.deb
+Size: 654664
+MD5sum: 1e1dd7cd94acb2c6ba9f74143aae05ae
+SHA1: f174e10e97dc11966cafaa37cee08c597e6f0be6
+SHA256: a7ef38415fd1fdbd6f204d33a9802a7216734dc7b6ec11e3374e4d07f0a41099
 Section: admin
 Priority: extra
 Multi-Arch: foreign
@@ -92,19 +92,19 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 binaries)
 Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
 
 Package: grub-efi-amd64-signed
-Source: grub2-signed (1.93.10)
-Version: 1.93.10+2.02-2ubuntu8.9
+Source: grub2-signed (1.93.11)
+Version: 1.93.11+2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Colin Watson <cjwatson@ubuntu.com>
 Installed-Size: 3359
-Depends: grub-efi-amd64-bin (= 2.02-2ubuntu8.9), grub-efi-amd64 | grub-pc
+Depends: grub-efi-amd64-bin (= 2.02-2ubuntu8.10), grub-efi-amd64 | grub-pc
 Recommends: secureboot-db
-Built-Using: grub2 (= 2.02-2ubuntu8.9)
-Filename: ./grub-efi-amd64-signed_1.93.10+2.02-2ubuntu8.9_amd64.deb
-Size: 297088
-MD5sum: faa65bfca05e20929d9dcb6cc8658857
-SHA1: d5174ce3d2e62732419bcad1e478741154b29130
-SHA256: 1b46046f5ba2519427d4f8f201d0224a2bac3b211c529cf3a808449a61fb2646
+Built-Using: grub2 (= 2.02-2ubuntu8.10)
+Filename: ./grub-efi-amd64-signed_1.93.11+2.02-2ubuntu8.10_amd64.deb
+Size: 297124
+MD5sum: 4599efd0cb5128d1599e6633b4fffc26
+SHA1: 067052710765ce6534b3dc6142f84c860332a68d
+SHA256: 054373228bfa676ac68236de9b6fff012b3c0683acef1acb871d332bb850466f
 Section: utils
 Priority: optional
 Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
@@ -122,18 +122,18 @@ Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
 
 Package: grub-pc
 Source: grub2
-Version: 2.02-2ubuntu8.9
+Version: 2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 560
-Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.02-2ubuntu8.9), grub2-common (= 2.02-2ubuntu8.9), grub-pc-bin (= 2.02-2ubuntu8.9), ucf, grub-gfxpayload-lists
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.02-2ubuntu8.10), grub2-common (= 2.02-2ubuntu8.10), grub-pc-bin (= 2.02-2ubuntu8.10), ucf, grub-gfxpayload-lists
 Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-xen
-Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.02-2ubuntu8.9)
-Filename: ./grub-pc_2.02-2ubuntu8.9_amd64.deb
-Size: 137252
-MD5sum: 48f6caeaeb0d4b16ee9cd55602822fde
-SHA1: ba50379f32dc97218adc0b98b3a2ba4b04c082fe
-SHA256: 27ed9b94ce56da8d75ee53aa8b590e6ffd2cbff7fcfee10fca27be1294f0f0a5
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.02-2ubuntu8.10)
+Filename: ./grub-pc_2.02-2ubuntu8.10_amd64.deb
+Size: 137236
+MD5sum: 3861b5bcd7892b8bf7103bc994eea7c1
+SHA1: afe8299144260e8b1d48ef155f5236373f992db5
+SHA256: b3482a17721fa708a8b242cc11139912c349fe3ff8bddcf2e23128e2ed1feb70
 Section: admin
 Priority: optional
 Multi-Arch: foreign
@@ -158,18 +158,18 @@ Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
 
 Package: grub-pc-bin
 Source: grub2
-Version: 2.02-2ubuntu8.9
+Version: 2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2917
-Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), grub-common (= 2.02-2ubuntu8.9)
+Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), grub-common (= 2.02-2ubuntu8.10)
 Suggests: desktop-base (>= 4.0.6)
-Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.02-2ubuntu8.9)
-Filename: ./grub-pc-bin_2.02-2ubuntu8.9_amd64.deb
-Size: 899600
-MD5sum: 6541d8bb2b6b1c0f3a28477b5f5d9f65
-SHA1: dc780ed283c32967b27bcfadd3fd2e7b2e0ca32b
-SHA256: 9cd27d1073add94651885618d444b06787f349a69d22379e6ed5e140776abada
+Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.02-2ubuntu8.10)
+Filename: ./grub-pc-bin_2.02-2ubuntu8.10_amd64.deb
+Size: 899724
+MD5sum: 91b71b209786c8b33d7c16ef08904fcc
+SHA1: 79856bae6c634ee162136b5faa76641cb6219f0c
+SHA256: 68c8ac462eb985d2c4b5d3a90fa026e4e749f5c1f0f87780443e19a2e33333f7
 Section: admin
 Priority: optional
 Multi-Arch: foreign
@@ -196,19 +196,19 @@ Original-Maintainer: GRUB Maintainers <pkg-grub-devel@lists.alioth.debian.org>
 
 Package: grub2-common
 Source: grub2
-Version: 2.02-2ubuntu8.9
+Version: 2.02-2ubuntu8.10
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 1159
-Depends: grub-common (= 2.02-2ubuntu8.9), dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), liblzma5 (>= 5.1.1alpha+20120614)
+Depends: grub-common (= 2.02-2ubuntu8.10), dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.36), liblzma5 (>= 5.1.1alpha+20120614)
 Conflicts: grub-legacy
 Breaks: grub (<< 0.97-54), grub-doc (<< 0.97-29ubuntu60), grub-legacy-doc (<< 0.97-29ubuntu60), shim (<< 13)
 Replaces: grub, grub-common (<< 1.99-1), grub-coreboot (<< 2.00-4), grub-doc (<< 0.97-29ubuntu60), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-legacy, grub-legacy-doc (<< 0.97-29ubuntu60), grub-linuxbios (<< 1.99-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4)
-Filename: ./grub2-common_2.02-2ubuntu8.9_amd64.deb
-Size: 531972
-MD5sum: 52f9a735be6501e5cf5946c1a607c05d
-SHA1: b213ae63b4082770671ff7db31de1aa0c59c867c
-SHA256: 979b9b5da2c9c04d94a751a9ba5f46fb002b6a511d9a2c3ddfd8ae25580adf18
+Filename: ./grub2-common_2.02-2ubuntu8.10_amd64.deb
+Size: 532408
+MD5sum: e513f14db27e2b5ef544c2fe4295473e
+SHA1: 89f024ef26143723b10dea165a5f902d70c37106
+SHA256: 268533d0e55ce277b24b559f48a72cbb57697045e3615bb721a5e40ba6b3e263
 Section: admin
 Priority: optional
 Multi-Arch: foreign

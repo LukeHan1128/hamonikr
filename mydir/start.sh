@@ -3,7 +3,6 @@
 echo "####install & file setting####"
 echo "[$(date +%FT%T)+00:00] Starting "
 
-
 # language check
 ck_lang=$(env | grep LANG=en_US.UTF-8 | wc -l)
 
@@ -14,22 +13,21 @@ fi
 
 
 #git --version  >/dev/null 2>&1 || { echo >&2 "Please install git - apt install git "; exit 1; }
-xorriso -version  >/dev/null 2>&1 || { echo "#### install xorriso ####"; sudo apt-get install xorriso -y; }
+xorriso -version  >/dev/null 2>&1 || { sudo apt-get install xorriso -y; }
 
 
 #### mv foler 
-cd ~/.
+#cd ~/.
 
 ####  necessary file setting
 sudo chmod 777 mydir
 cd mydir
 
-
 echo "####Copying $CDIMAGENAME to working directory...####"
+
 
 CDIMAGENAME='linuxmint-19-cinnamon-64bit-v2.iso'
 IMAGE_NAME='HamoniKR-ME_1.2'
-
 
 cd ~/.
 mkdir custom-img

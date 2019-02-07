@@ -107,8 +107,18 @@ cp -r /mydir/mydebs /usr/local
 echo 'deb file:/usr/local/mydebs ./' >> /etc/apt/sources.list.d/official-package-repositories.list
 
 #### GPG public key import
-gpg --recv-keys --keyserver keyserver.ubuntu.com 6970c527
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6970c527
+gpg --recv-keys --keyserver keyserver.ubuntu.com 640F902A
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 640F902A
+
+
+# set mirror server - kaist kakao
+sed -i 's/packages.linuxmint.com/ftp.kaist.ac.kr\/linuxmint/g' /etc/apt/sources.list.d/official-package-repositories.list
+sed -i 's/#id:linuxmint_main//g' /etc/apt/sources.list.d/official-package-repositories.list
+sed -i 's/archive.ubuntu.com\/ubuntu/mirror.kakao.com\/ubuntu/g' /etc/apt/sources.list.d/official-package-repositories.list
+
+
+apt-get update
+
 
 #### kdenlive
 echo "############# install kdenlive ############"
@@ -215,10 +225,6 @@ echo 'if [ "lang_val" == "lang_kr" ]; then' >> /root/.after_install.sh
 sed -i 's/"lang_kr"/"\$lang_kr"/g' /root/.after_install.sh
 sed -i 's/"lang_val"/"\$lang_val"/g' /root/.after_install.sh
 
-# set mirror server - kaist kakao
-echo "  sed -i 's/packages.linuxmint.com/ftp.kaist.ac.kr\/linuxmint/g' /target/etc/apt/sources.list.d/official-package-repositories.list" >> /root/.after_install.sh
-echo "  sed -i 's/#id:linuxmint_main//g' /target/etc/apt/sources.list.d/official-package-repositories.list" >> /root/.after_install.sh
-echo "  sed -i 's/archive.ubuntu.com\/ubuntu/mirror.kakao.com\/ubuntu/g' /target/etc/apt/sources.list.d/official-package-repositories.list" >> /root/.after_install.sh
 
 # set locale
 echo "  echo 'LANGUAGE=ko_KR:ko' >> /target/etc/default/locale;" >> /root/.after_install.sh
