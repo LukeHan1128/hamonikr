@@ -1,12 +1,32 @@
 #!/bin/bash
+#
+# update 2019.04.04
+# LukeHan
+#
+
+###### iso info ######
+CDIMAGENAME='linuxmint-19-cinnamon-64bit-v2.iso'
+IMAGE_NAME='HamoniKR-ME_1.3'
+
+
+###### check the use script ######
+sc_casper=true		## booting use setting
+sc_program=true		## package install and default setting script
+sc_install_after=true	## preseed script
+sc_text_change=true	## os linux mint text change
+sc_os_img=true		## os image setting
+sc_os_slide=true	## os install slide setting
+sc_dev=false		## only devloment
+
 
 echo "####install & file setting####"
-echo "[$(date +%FT%T)+00:00] Starting "
+start_time=$(date +%FT%T)
+echo "[$start_time+00:00] Starting "
 
 # language check
 ck_lang=$(env | grep LANG=en_US.UTF-8 | wc -l)
 
-if [ "$ck_lang" == 0 ] ; then
+if [ "$ck_lang" = 0 ] ; then
 	echo "#### please use the English at system location : not English not success  ####"
         exit 1
 fi
@@ -16,17 +36,21 @@ fi
 xorriso -version  >/dev/null 2>&1 || { sudo apt-get install xorriso -y; }
 
 
+if [ ! -e ~/$CDIMAGENAME ]; then
+	echo "#### download linuxmint-19-cinnamon-64bit-v2.iso ####"
+	wget -P ~/. http://ftp.kaist.ac.kr/linuxmint-iso/stable/19/linuxmint-19-cinnamon-64bit-v2.iso
+fi
+
 #### mv foler 
-#cd ~/.
+cd ~/.
 
 ####  necessary file setting
 sudo chmod 777 mydir
 cd mydir
 
+
 echo "####Copying $CDIMAGENAME to working directory...####"
 
-CDIMAGENAME='linuxmint-19-cinnamon-64bit-v2.iso'
-IMAGE_NAME='HamoniKR-ME_1.2'
 
 cd ~/.
 mkdir custom-img
@@ -62,9 +86,11 @@ rm $CDIMAGENAME
 sudo cp -r ~/mydir/ ~/custom-img/edit
 
 ##############################################################################
-echo "####casper start####"
-
-. ~/mydir/casper.sh
+if $sc_casper; then
+	echo "####casper start####"
+	sh ~/mydir/casper.sh
+	echo "####casper end####"
+fi
 
 ##############################################################################
 echo "####chroot start####"
@@ -88,23 +114,38 @@ ln -s /bin/true /sbin/initctl
 ##############################################################################
 echo "####Customizations setting####"
 
-echo "### program install (gimp, hwp, chrome, hamonia, veyon etc) ###"
-. /mydir/program.sh
-echo "### program install end ###"
+$(if $sc_program; then
+	echo 'echo "### program install (gimp, hwp, chrome, hamonia, veyon etc) ###"'
+	echo 'sh ./mydir/program.sh'
+	echo 'echo "### program install end ###"'
+fi)
 
-echo "### linuxmint text change ###" 
-. /mydir/linuxmint_text_change.sh
-echo "### linuxmint text change end ###"
+$(if $sc_install_after; then
+	echo 'echo "### create - use the preseed script ###"'
+	echo 'sh ./mydir/preseed_install_after.sh'
+	echo 'echo "### create - use the preseed script end ###"'
+fi)
 
-echo "### os img change ###"
-. /mydir/os_img_change.sh
+$(if $sc_text_change; then
+	echo 'echo "### linuxmint text change ###"'
+	echo 'sh ./mydir/linuxmint_text_change.sh'
+fi)
 
-echo "### cp hamoniKR.xml on cinnamon-background-properties folder ###"
-cp /mydir/hamoniKR.xml /usr/share/cinnamon-background-properties/
+$(if $sc_os_img; then
+	echo 'echo "### os img change ###"'
+	echo 'sh ./mydir/os_img_change.sh'
+fi)
 
-echo "###os slide change ###"
-. /mydir/os_slide.sh
+$(if $sc_os_slide; then
+	echo 'echo "###os slide change ###"'
+	echo 'sh ./mydir/os_slide.sh'
+fi)
 
+
+$(if $sc_dev; then
+	echo 'echo "### dev script ###"'
+	echo 'sh ./mydir/only_dev.sh'
+fi)
 
 ##############################################################################
 
@@ -178,7 +219,8 @@ sudo fdisk -lu ../$IMAGE_NAME.iso
 
 
 echo "#### finish time ####"
-echo "[$(date +%FT%T)+00:00] Starting "
+echo "[$start_time+00:00] Start Time "
+echo "[$(date +%FT%T)+00:00] end Time "
 
 
 exit 0

@@ -19,6 +19,9 @@ echo "Session=cinnamon" >> /etc/skel/.dmrc
 echo "Language=ko_KR.UTF-8" >> /etc/skel/.dmrc
 
 
+echo "### cp hamoniKR.xml on cinnamon-background-properties folder ###"
+cp /mydir/hamoniKR.xml /usr/share/cinnamon-background-properties/
+
 
 ####  change image
 mkdir /usr/share/backgrounds/HamoniKR-ME/

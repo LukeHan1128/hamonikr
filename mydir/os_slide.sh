@@ -1,29 +1,32 @@
 #!/bin/bash
 #### change install slide
 
+ISO_NAME='HamoniKR-ME'
+ISO_CN='ME'
+ISO_VER='1.3'
 
 #### os before installation slide (image during install)
 cp -r /mydir/hamoniKR-ME_img/slide/* /usr/share/ubiquity-slideshow/slides/screenshots/
   
-sed -i "s/리눅스 민트에/HamoniKR-ME 에/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
+sed -i "s/리눅스 민트에/$ISO_NAME 에/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
 sed -i "s/그리고  리눅스 민트를/HamoniKR-ME 를/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
-sed -i "s/리눅스 민트가/HamoniKR-ME 가/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
+sed -i "s/리눅스 민트가/$ISO_NAME 가/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
 sed -i "s/리눅스//g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
-sed -i "s/민트에/HamoniKR-ME 에/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
+sed -i "s/민트에/$ISO_NAME 에/g" /usr/share/ubiquity-slideshow/slides/l10n/ko/welcome.html
 sed -i "s/게 있거나 문제가 있을 땐, 주변에 물어보세요. //g" /usr/share/ubiquity-slideshow/slides/l10n/ko/help.html
 sed -i "s/ 리눅스 민트는 수백만 명의 사람들이 사용하는 가장 유명한 데스크톱용 리눅스 중//g" /usr/share/ubiquity-slideshow/slides/l10n/ko/help.html
 sed -i "s/하나입니다. 사용자 안내서, 커뮤니티 웹사이트, 튜토리얼 모음집 그리고 채팅방과 인터넷에서 가장 다이나믹한 커뮤니티를 함께 제공합니다.//g" /usr/share/ubiquity-slideshow/slides/l10n/ko/help.html
 sed -i "s/궁금한/궁금한 게 있거나 문제가 있을 땐, 하모니카 커뮤니티(https:\/\/hamonikr.org)에 물어보세요. 하모니카 커뮤니티는 한국어 사용자들이 가장 많이 이용하는 리눅스 커뮤니티 입니다./g" /usr/share/ubiquity-slideshow/slides/l10n/ko/help.html
-sed -i "s/Linux Mint/HamoniKR-ME/g" /usr/share/ubiquity-slideshow/slides/l10n/*/*.html
-sed -i "s/리눅스 민트/HamoniKR-ME/g" /usr/share/ubiquity-slideshow/slides/l10n/*/*.html
+sed -i "s/Linux Mint/$ISO_NAME/g" /usr/share/ubiquity-slideshow/slides/l10n/*/*.html
+sed -i "s/리눅스 민트/$ISO_NAME/g" /usr/share/ubiquity-slideshow/slides/l10n/*/*.html
 
   
 # change welcome window
-sed -i 's/dist_name = "Linux Mint"/dist_name = "HamoniKR-ME"/g' /usr/lib/linuxmint/mintwelcome/mintwelcome.py
-sed -i "s/리눅스 민트/HamoniKR-ME/g" /usr/share/applications/mintwelcome.desktop
-sed -i "s/Linux Mint/HamoniKR-ME/g" /usr/share/applications/mintwelcome.desktop
-sed -i "s/리눅스 민트/HamoniKR-ME/g" /usr/share/applications/kde4/mintwelcome.desktop
-sed -i "s/Linux Mint/HamoniKR-ME/g" /usr/share/applications/kde4/mintwelcome.desktop
+sed -i "s/dist_name = \"Linux Mint\"/dist_name = \"$ISO_NAME\"/g" /usr/lib/linuxmint/mintwelcome/mintwelcome.py
+sed -i "s/리눅스 민트/$ISO_NAME/g" /usr/share/applications/mintwelcome.desktop
+sed -i "s/Linux Mint/$ISO_NAME/g" /usr/share/applications/mintwelcome.desktop
+sed -i "s/리눅스 민트/$ISO_NAME/g" /usr/share/applications/kde4/mintwelcome.desktop
+sed -i "s/Linux Mint/$ISO_NAME/g" /usr/share/applications/kde4/mintwelcome.desktop
 
 #### os after installation slide
 
@@ -136,7 +139,7 @@ msgunfmt hu/LC_MESSAGES/mintwelcome.mo > hu/LC_MESSAGES/mintwelcome.po
 msgunfmt ne/LC_MESSAGES/mintwelcome.mo > ne/LC_MESSAGES/mintwelcome.po
 msgunfmt sr@latin/LC_MESSAGES/mintwelcome.mo > sr@latin/LC_MESSAGES/mintwelcome.po
 
-sed -i 's/Linux Mint/HamoniKR-ME/g' */LC_MESSAGES/mintwelcome.po
+sed -i "s/Linux Mint/$ISO_NAME/g" */LC_MESSAGES/mintwelcome.po
   
 msgfmt af/LC_MESSAGES/mintwelcome.po -o af/LC_MESSAGES/mintwelcome.mo
 msgfmt am/LC_MESSAGES/mintwelcome.po -o am/LC_MESSAGES/mintwelcome.mo
@@ -248,14 +251,14 @@ msgfmt sr@latin/LC_MESSAGES/mintwelcome.po -o sr@latin/LC_MESSAGES/mintwelcome.m
   
   
 msgunfmt ko/LC_MESSAGES/mintwelcome.mo > ko/LC_MESSAGES/mintwelcome.po
-sed -i 's/Linux Mint/HamoniKR-ME/g' ko/LC_MESSAGES/mintwelcome.po
-sed -i 's/리눅스 민트/HamoniKR-ME/g' ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/Linux Mint/$ISO_NAME/g" ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/리눅스 민트/$ISO_NAME/g" ko/LC_MESSAGES/mintwelcome.po
 
 
 # 반갑습니다 페이지
-sed -i 's/새로운 운영 체제에 오신 것을 환영합니다!/한국어 사용자에게 최적화된 운영 체제 HamoniKR-ME에 오신 것을 환영합니다!/g' ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/새로운 운영 체제에 오신 것을 환영합니다!/한국어 사용자에게 최적화된 운영 체제 $ISO_NAME에 오신 것을 환영합니다!/g" ko/LC_MESSAGES/mintwelcome.po
   
-sed -i 's/개발 팀과 프로젝트에 참여한 모든 사람들의 이름으로, HamoniKR-ME를 선택해 주/HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. /g' ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/개발 팀과 프로젝트에 참여한 모든 사람들의 이름으로, $ISO_NAME를 선택해 주/$ISO_NAME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. /g" ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/신 것에 대해 감사드립니다. 우리가 이 일에 참여하며 즐기고 있는 만큼 여러분들/최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. /g' ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/도 즐겁게 사용하시기를 바랍니다./그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다. /g' ko/LC_MESSAGES/mintwelcome.po
   
@@ -265,7 +268,7 @@ sed -i 's/좋은 시간 보내시고 저희에게 당신의 피드백을 보내�
 
 # 서류 작업
 sed -i 's/서류 작업/가이드 문서/g' ko/LC_MESSAGES/mintwelcome.po
-sed -i 's/HamoniKR-ME 설명서는 PDF, ePUB  그리고 HTML 형식 및 다양한 언어로 제공되는 가/HamoniKR-ME 설명서는 하모니카 커뮤니티에서 확인하실 수 있습니다./g' ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/$ISO_NAME 설명서는 PDF, ePUB  그리고 HTML 형식 및 다양한 언어로 제공되는 가/$ISO_NAME 설명서는 하모니카 커뮤니티에서 확인하실 수 있습니다./g" ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/이드 모음으로 구성되어 있습니다. 사용 가능한 가이드를 보려면 아래 버튼을 클릭/ /g' ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/하십시오./ /g' ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/래 버튼을 클릭 /래 버튼을 클릭하십시오. /g' ko/LC_MESSAGES/mintwelcome.po
@@ -273,7 +276,7 @@ sed -i 's/래 버튼을 클릭 /래 버튼을 클릭하십시오. /g' ko/LC_MESS
 
 # 도움말
 sed -i 's/웹 포럼/하모니카 커뮤니티/g' ko/LC_MESSAGES/mintwelcome.po
-sed -i 's/HamoniKR-ME 포럼은 도움을 받을 수 있는 최고의 장소입니다. 수천 명의 사용자와 /하모니카 커뮤니티는 도움을 받을 수 있는 최고의 장소입니다. HamoniKR-ME 를 사용하는 사람들과 /g' ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/$ISO_NAME 포럼은 도움을 받을 수 있는 최고의 장소입니다. 수천 명의 사용자와 /하모니카 커뮤니티는 도움을 받을 수 있는 최고의 장소입니다. $ISO_NAME 를 사용하는 사람들과 /g" ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/IRC 채팅방/Slack 채널/g' ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/IRC 대화방에 연결하여 현재 온라인 상태 인 사용자와 채팅할 수도 있습니다. 물어/하모니카 커뮤니티 Slack 채널에 연결하여 현재 온라인 상태인 사용자와 채팅할 수도 있습니다. /g' ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/보세요, 어쩌면 그곳의 누군가가 해결책을 알고 있지 않을까요?/물어보세요. 누구나 참여하셔서 하모니카 커뮤니티에서 나누고 싶은 이야기를 자유롭게 하실수 있습니다./g' ko/LC_MESSAGES/mintwelcome.po
@@ -284,7 +287,7 @@ sed -i 's/트는 도움, 존중, 관용, 아이디어 및 건설적인 토론을
 
 # 기여 - 깃허브
 # sed -i 's/기여/내용입력/g' ko/LC_MESSAGES/mintwelcome.po
-sed -i 's/HamoniKR-ME는 멋진 프로젝트입니다. 이 프로젝트는 참여를 원하는 누구에게나 열/HamoniKR-ME는 오픈소스 프로젝트입니다. /g' ko/LC_MESSAGES/mintwelcome.po
+sed -i "s/$ISO_NAME는 멋진 프로젝트입니다. 이 프로젝트는 참여를 원하는 누구에게나 열/$ISO_NAME는 오픈소스 프로젝트입니다. /g" ko/LC_MESSAGES/mintwelcome.po
 sed -i 's/려 있습니다. 도움을 줄 수 있는 여러가지 방법들이 있습니다. 참여 방법을 보려/이 프로젝트에 참여를 원하시거나 소스코드에 관심이 있다/g' ko/LC_MESSAGES/mintwelcome.po
 
 
@@ -294,7 +297,7 @@ rm */LC_MESSAGES/mintwelcome.po
 
 cd ..
 
-sed -i 's/Linux Mint/HamoniKR-ME/g' mintwelcome/mintwelcome.ui
+sed -i "s/Linux Mint/$ISO_NAME/g" mintwelcome/mintwelcome.ui
 
 
 # welcome button
@@ -333,5 +336,5 @@ cp /mydir/hamoniKR-ME_img/mint-logo.svg /usr/share/icons/hicolor/scalable/apps/m
   
 
 # change help window
-sed -i "s/리눅스 민트/HamoniKR-ME/g" /usr/share/help/ko/mintupdate/*.*
-sed -i "s/Linux Mint/HamoniKR-ME/g" /usr/share/help/ko/mintupdate/*.*
+sed -i "s/리눅스 민트/$ISO_NAME/g" /usr/share/help/ko/mintupdate/*.*
+sed -i "s/Linux Mint/$ISO_NAME/g" /usr/share/help/ko/mintupdate/*.*
