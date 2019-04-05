@@ -2,8 +2,9 @@
 
 #gimp
 #echo "############# install gimp ############"
-apt-get purge gimp -y
-flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref -y
+#apt-get purge gimp -y
+#flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref -y
+
 
 #### uninstall firefox home page ####
 echo "############# uninstall firefox ############"
@@ -49,7 +50,6 @@ apt-get dist-upgrade -y
 # apt update - RCE
 mintupdate-cli upgrade -y
 
-#apt-get install google-chrome-stable yubikey-luks -y
 apt-get autoremove -y
 apt-get autoclean -y
 
@@ -68,6 +68,7 @@ apt install xorg-dev libxtst-dev libjpeg-dev zlib1g-dev libssl-dev libpam0g-dev 
 apt install libprocps-dev liblzo2-dev libqca2-dev libqca-qt5-2-dev libldap2-dev -y
 apt install libqca-qt5-2-plugins -y
 dpkg -i /mydir/veyon_4.1.6-ubuntu-bionic_amd64.deb
+
 
 #### vim tree nmon
 echo "############# install vim tree nmon ############"
@@ -154,7 +155,7 @@ apt install uim-xim -y
 apt install gir1.2-fcitx-1.0 -y
 
 
-#### add fonts - gabia spoka
+#### add fonts - gabia seoul spoka
 echo "############# setting fonts - gabia spoka ############"
 dpkg -i /mydir/font-gabia.deb
 dpkg -i /mydir/fonts-spoka-hansans-kr.deb

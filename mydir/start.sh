@@ -48,7 +48,6 @@ cd ~/.
 sudo chmod 777 mydir
 cd mydir
 
-
 echo "####Copying $CDIMAGENAME to working directory...####"
 
 
