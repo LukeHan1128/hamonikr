@@ -16,6 +16,7 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 # History
 * 자세한 내용을 알고싶다면 [하모니카 커뮤니티 - 릴리즈노트](https://hamonikr.org/index.php?mid=board_hkrme&category=55599)를 확인해 주세요.
 
+* 2019-04-04 [HamoniKR-ME 1.3 release](https://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=60794)
 * 2019-01-22 [HamoniKR-ME 1.2 release](https://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=58087)
 * 2018-11-20 [HamoniKR-ME 1.1 release](https://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55790)
 * 2018-11-18 [HamoniKR-ME 1.0 release](https://hamonikr.org/index.php?mid=board_hkrme&category=55599&document_srl=55702)
@@ -30,9 +31,6 @@ HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 �
 
 1. 다운로드
 * 해당 깃허브 프로젝트를 다운로드 받습니다.
-* [리눅스 민트 공식 홈페이지](https://linuxmint.com/)에서 [리눅스 민트 19 타라 시나몬 64-bit](https://linuxmint.com/edition.php?id=254)를 다운받습니다.
-* 혹은 아래와 같이 다운로드 받습니다.
-<pre><code>wget http://ftp.kaist.ac.kr/linuxmint-iso/stable/19/linuxmint-19-cinnamon-64bit-v2.iso</code></pre>
 <br/>
 
 2. 준비<br/>
@@ -68,11 +66,6 @@ mv hamonikr/mydir ~/
 <br/>
 <br/>
 
-3. 공통<br/>
-
-다운받은 iso 파일을 홈 디렉토리로 이동합니다.
-<pre><code>mv Downloads/linuxmint-19-cinnamon-64bit-v2.iso ~/</code></pre>
-<br/>
 
 # 실행
 <pre>
@@ -88,9 +81,9 @@ sudo ./start.sh
 <br/>
 
 # 완료
-스크립트가 완료되면 ~/custome-img 폴더에서 HamoniKR-ME_1.2.iso 파일이 생성되었음을 확인할 수 있습니다.<br/>
+스크립트가 완료되면 ~/custome-img 폴더에서 HamoniKR-ME_1.3.iso 파일이 생성되었음을 확인할 수 있습니다.<br/>
 <br/>
-HamoniKR-ME_1.2.iso 파일을 이용하여 부팅 USB 를 제작할 수 있습니다.<br/>
+HamoniKR-ME_1.3.iso 파일을 이용하여 부팅 USB 를 제작할 수 있습니다.<br/>
 <br/>
 부팅USB 제작 방법은 아래의 링크를 참조해 주시기 바랍니다.
 - [Ⅱ-1. 윈도우에서 하모니카OS 부팅USB 만들기](https://hamonikr.org/index.php?mid=board_manual&category=3671&document_srl=3747)
