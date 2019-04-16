@@ -4,6 +4,9 @@
 * <b>리눅스 커뮤니티 하모니카 :</b> https://hamonikr.org
 <br/><br/>
 
+# 하모니카 소스코드
+* <b>하모니카OS 소스코드 :</b> http://pms.invesume.com:7990/projects/HAMOS/repos/hamonikr-me
+
 # 하모니카ME는 어떤 프로젝트 인가요?
 
 HamoniKR-ME(Media Edition) 배포판은 Linux Mint 19 Tara Cinnamon 버전을 기반으로 여러 응용 프로그램들을 추가하였습니다. 최근 초등학교 SW 교육이 중요해지고 애플, 구글 등 글로벌 기업들도 교육용 플랫폼을 출시하고 있습니다. 그래서 2018 하모니카 ME 버전은 한글 리눅스 사용자들이 무료로 원격교육이나 화상회의 용도로 사용할 수 있는 보다 사용성이 좋은 리눅스 데스크탑 제공에 초점을 맞추었습니다.
